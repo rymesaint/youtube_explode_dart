@@ -292,7 +292,7 @@ class YoutubeHttpClient extends http.BaseClient {
     assert(action == 'next' || action == 'browse' || action == 'search');
 
     final url = Uri.parse(
-      'https://www.youtube.com/youtubei/v1/$action?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8',
+      'https://www.youtube.com/youtubei/v1/$action?key=AIzaSyC30IjLa9icBmgUQo202FwlAs8l1XY-r7g',
     );
 
     final body = {

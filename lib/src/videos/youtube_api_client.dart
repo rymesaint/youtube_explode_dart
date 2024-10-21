@@ -34,7 +34,7 @@ class YoutubeApiClient {
         'utcOffsetMinutes': 0
       }
     },
-  }, 'https://www.youtube.com/youtubei/v1/player?key=AIzaSyB-63vPrdThhKuerbB2N_l7Kwwcxj6yUAc&prettyPrint=false');
+  }, 'https://www.youtube.com/youtubei/v1/player?key=AIzaSyBDSwQ5y7lKppbHe1nFJiTIWI1GPvYfNa4&prettyPrint=false');
 
   /// Work even of restricted videos and provides low quality muxed streams, but requires signature deciphering.
   /// Does not work if the video has the embedding disabled.
@@ -93,7 +93,7 @@ class YoutubeApiClient {
         'utcOffsetMinutes': 0,
       },
     },
-  }, 'https://music.youtube.com/youtubei/v1/player?key=AIzaSyAOghZGza2MQSZkY_zfZ370N-PUdXEo8AI&prettyPrint=false');
+  }, 'https://music.youtube.com/youtubei/v1/player?key=AIzaSyB5HF-FPb_kA9D9hndYo1QAcABfVJJEopk&prettyPrint=false');
 
   static const androidVr = YoutubeApiClient({
     'context': {
